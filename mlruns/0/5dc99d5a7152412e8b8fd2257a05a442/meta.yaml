@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/5dc99d5a7152412e8b8fd2257a05a442/artifacts
+end_time: 1767028169904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5dc99d5a7152412e8b8fd2257a05a442
+run_name: melodic-crab-718
+run_uuid: 5dc99d5a7152412e8b8fd2257a05a442
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767028169838
+status: 3
+tags: []
+user_id: VARUN

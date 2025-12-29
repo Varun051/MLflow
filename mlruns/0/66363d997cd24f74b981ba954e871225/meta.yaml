@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/66363d997cd24f74b981ba954e871225/artifacts
+end_time: 1767028134404
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 66363d997cd24f74b981ba954e871225
+run_name: traveling-crane-302
+run_uuid: 66363d997cd24f74b981ba954e871225
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767028134314
+status: 3
+tags: []
+user_id: VARUN
