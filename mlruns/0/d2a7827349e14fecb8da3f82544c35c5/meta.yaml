@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/d2a7827349e14fecb8da3f82544c35c5/artifacts
+end_time: 1767192520119
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d2a7827349e14fecb8da3f82544c35c5
+run_name: thoughtful-squid-472
+run_uuid: d2a7827349e14fecb8da3f82544c35c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192515396
+status: 3
+tags: []
+user_id: VARUN

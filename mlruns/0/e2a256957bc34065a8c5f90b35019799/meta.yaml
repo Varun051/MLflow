@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/e2a256957bc34065a8c5f90b35019799/artifacts
+end_time: 1767192433014
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e2a256957bc34065a8c5f90b35019799
+run_name: gentle-dove-447
+run_uuid: e2a256957bc34065a8c5f90b35019799
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192428121
+status: 3
+tags: []
+user_id: VARUN

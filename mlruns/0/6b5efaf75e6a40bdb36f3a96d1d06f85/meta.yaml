@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/6b5efaf75e6a40bdb36f3a96d1d06f85/artifacts
+end_time: 1767192394221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b5efaf75e6a40bdb36f3a96d1d06f85
+run_name: chill-gnat-991
+run_uuid: 6b5efaf75e6a40bdb36f3a96d1d06f85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192389435
+status: 3
+tags: []
+user_id: VARUN

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/75f4fe53328247878b5cc84396b8bd54/artifacts
+end_time: 1767192332615
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75f4fe53328247878b5cc84396b8bd54
+run_name: calm-flea-194
+run_uuid: 75f4fe53328247878b5cc84396b8bd54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192328196
+status: 3
+tags: []
+user_id: VARUN

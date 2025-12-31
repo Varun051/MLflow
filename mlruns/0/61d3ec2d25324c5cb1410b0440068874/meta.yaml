@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/61d3ec2d25324c5cb1410b0440068874/artifacts
+end_time: 1767189797066
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61d3ec2d25324c5cb1410b0440068874
+run_name: overjoyed-dove-594
+run_uuid: 61d3ec2d25324c5cb1410b0440068874
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767189795993
+status: 3
+tags: []
+user_id: VARUN

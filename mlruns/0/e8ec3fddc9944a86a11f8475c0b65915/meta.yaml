@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/e8ec3fddc9944a86a11f8475c0b65915/artifacts
+end_time: 1767192539955
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e8ec3fddc9944a86a11f8475c0b65915
+run_name: persistent-auk-138
+run_uuid: e8ec3fddc9944a86a11f8475c0b65915
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192534924
+status: 3
+tags: []
+user_id: VARUN

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/98c0211ed29741e4bf28215914ec9133/artifacts
+end_time: 1767192445380
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98c0211ed29741e4bf28215914ec9133
+run_name: invincible-shad-118
+run_uuid: 98c0211ed29741e4bf28215914ec9133
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192440581
+status: 3
+tags: []
+user_id: VARUN

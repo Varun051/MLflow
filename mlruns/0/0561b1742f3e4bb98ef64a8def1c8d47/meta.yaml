@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/0561b1742f3e4bb98ef64a8def1c8d47/artifacts
+end_time: 1767192581241
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0561b1742f3e4bb98ef64a8def1c8d47
+run_name: nosy-goat-460
+run_uuid: 0561b1742f3e4bb98ef64a8def1c8d47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192576536
+status: 3
+tags: []
+user_id: VARUN

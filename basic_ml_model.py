@@ -22,7 +22,7 @@ def get_data():
     except Exception as e:
         raise e
     
-def evaluate(y_true, y_pred):
+def evaluate(y_true, y_pred, pred_prob):
     '''
     mse = mean_squared_error(y_true, y_pred)
     mae = mean_absolute_error(y_true, y_pred)
@@ -33,7 +33,9 @@ def evaluate(y_true, y_pred):
     '''
     
     accuracy = accuracy_score(y_true, y_pred)
-    return accuracy
+    rocauc_score = roc_auc_score(y_true, pred_prob, multi_class='ovr')
+
+    return accuracy, rocauc_score
 
 
 def main(n_estimators, max_depth):
@@ -51,17 +53,28 @@ def main(n_estimators, max_depth):
     pred = lr.predict(X_test)
     '''
 
-    rf = RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth, random_state=43)
-    rf.fit(X_train, y_train)
-    pred = rf.predict(X_test)
+    with mlflow.start_run():
+        rf = RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth, random_state=43)
+        rf.fit(X_train, y_train)
+        pred = rf.predict(X_test)
 
-    # Evaluate the model
-    '''
-    mse, mae, rmse, r2 = evaluate(y_test, pred)
-    print(f"Mean Squared Error: {mse}, Mean Absolute Error: {mae}, Root Mean Squared Error: {rmse}, R2 Score: {r2}")
-    '''
-    accuracy = evaluate(y_test, pred)
-    print(f"Accuracy: {accuracy}")
+        pred_prob = rf.predict_proba(X_test)
+
+        # Evaluate the model
+        '''
+        mse, mae, rmse, r2 = evaluate(y_test, pred)
+        print(f"Mean Squared Error: {mse}, Mean Absolute Error: {mae}, Root Mean Squared Error: {rmse}, R2 Score: {r2}")
+        '''
+        accuracy,rocauc_score = evaluate(y_test, pred, pred_prob)
+        mlflow.log_param("n_estimators", n_estimators)
+        mlflow.log_param("max_depth", max_depth)
+        mlflow.log_metric("accuracy", accuracy)
+        mlflow.log_metric("roc_auc_score", rocauc_score)
+
+        # Mlflow model logging
+        mlflow.sklearn.log_model(rf, "RandomForestClassifier_Model")
+        
+        print(f"Accuracy: {accuracy}, ROC AUC Score: {rocauc_score}")
 
 
 if __name__ == "__main__":
@@ -73,4 +86,13 @@ if __name__ == "__main__":
         main(n_estimators=parse_args.n_estimators, max_depth=parse_args.max_depth)
     except Exception as e:
         raise e
-    
+
+
+# What is the use of Mlflow?
+# MLflow is an open-source platform designed to manage the end-to-end machine learning lifecycle. It provides tools for tracking experiments, 
+ #packaging code into reproducible runs, and sharing and deploying models.
+# Key features of MLflow include:
+# 1. Experiment Tracking:-- MLflow allows you to log and query experiments, including parameters, metrics, and artifacts.
+# 2. Model Management:-- It provides a centralized model registry to manage the lifecycle of machine learning models.
+# 3. Reproducibility:-- MLflow enables you to package your code, environment, and dependencies to ensure that experiments can be reproduced.
+# 4. Deployment:-- MLflow supports various deployment options, making it easier to deploy models to production.

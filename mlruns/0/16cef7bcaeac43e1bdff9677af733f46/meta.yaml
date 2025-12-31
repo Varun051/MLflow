@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/16cef7bcaeac43e1bdff9677af733f46/artifacts
+end_time: 1767192353214
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16cef7bcaeac43e1bdff9677af733f46
+run_name: puzzled-wolf-550
+run_uuid: 16cef7bcaeac43e1bdff9677af733f46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192348642
+status: 3
+tags: []
+user_id: VARUN

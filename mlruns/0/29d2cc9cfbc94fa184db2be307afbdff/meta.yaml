@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/29d2cc9cfbc94fa184db2be307afbdff/artifacts
+end_time: 1767192342937
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29d2cc9cfbc94fa184db2be307afbdff
+run_name: learned-goose-87
+run_uuid: 29d2cc9cfbc94fa184db2be307afbdff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192337955
+status: 3
+tags: []
+user_id: VARUN

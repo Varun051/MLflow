@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/448227b5ad8940e2aa4d3764ee790064/artifacts
+end_time: 1767192571100
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 448227b5ad8940e2aa4d3764ee790064
+run_name: sneaky-mule-716
+run_uuid: 448227b5ad8940e2aa4d3764ee790064
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192565979
+status: 3
+tags: []
+user_id: VARUN

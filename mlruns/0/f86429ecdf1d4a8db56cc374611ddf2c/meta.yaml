@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/f86429ecdf1d4a8db56cc374611ddf2c/artifacts
+end_time: 1767192499650
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f86429ecdf1d4a8db56cc374611ddf2c
+run_name: selective-swan-108
+run_uuid: f86429ecdf1d4a8db56cc374611ddf2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192494173
+status: 3
+tags: []
+user_id: VARUN

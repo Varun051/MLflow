@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/d3a8e6619fd4464caf49ea624a118f21/artifacts
+end_time: 1767192404113
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3a8e6619fd4464caf49ea624a118f21
+run_name: unequaled-yak-469
+run_uuid: d3a8e6619fd4464caf49ea624a118f21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192399461
+status: 3
+tags: []
+user_id: VARUN

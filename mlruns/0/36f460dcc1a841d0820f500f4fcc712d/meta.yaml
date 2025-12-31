@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/36f460dcc1a841d0820f500f4fcc712d/artifacts
+end_time: 1767192529972
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36f460dcc1a841d0820f500f4fcc712d
+run_name: enchanting-frog-977
+run_uuid: 36f460dcc1a841d0820f500f4fcc712d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192525447
+status: 3
+tags: []
+user_id: VARUN

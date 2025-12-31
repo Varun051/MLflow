@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/dc3e6cb505364a15b3ee6cb2733dcbd9/artifacts
+end_time: 1767192560725
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc3e6cb505364a15b3ee6cb2733dcbd9
+run_name: nimble-gnu-715
+run_uuid: dc3e6cb505364a15b3ee6cb2733dcbd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192555651
+status: 3
+tags: []
+user_id: VARUN

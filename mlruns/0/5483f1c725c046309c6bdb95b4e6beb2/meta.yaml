@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/5483f1c725c046309c6bdb95b4e6beb2/artifacts
+end_time: 1767192510061
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5483f1c725c046309c6bdb95b4e6beb2
+run_name: burly-bear-523
+run_uuid: 5483f1c725c046309c6bdb95b4e6beb2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192504742
+status: 3
+tags: []
+user_id: VARUN

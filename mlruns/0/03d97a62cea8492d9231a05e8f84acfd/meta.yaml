@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/03d97a62cea8492d9231a05e8f84acfd/artifacts
+end_time: 1767192488720
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03d97a62cea8492d9231a05e8f84acfd
+run_name: trusting-bass-266
+run_uuid: 03d97a62cea8492d9231a05e8f84acfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192483366
+status: 3
+tags: []
+user_id: VARUN

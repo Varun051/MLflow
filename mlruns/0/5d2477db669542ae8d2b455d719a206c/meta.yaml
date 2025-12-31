@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/5d2477db669542ae8d2b455d719a206c/artifacts
+end_time: 1767192413730
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d2477db669542ae8d2b455d719a206c
+run_name: loud-seal-58
+run_uuid: 5d2477db669542ae8d2b455d719a206c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192409151
+status: 3
+tags: []
+user_id: VARUN

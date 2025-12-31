@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/82b4c0e339784e8b97f5466a393cf600/artifacts
+end_time: 1767189606158
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 82b4c0e339784e8b97f5466a393cf600
+run_name: zealous-zebra-174
+run_uuid: 82b4c0e339784e8b97f5466a393cf600
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767189604929
+status: 3
+tags: []
+user_id: VARUN

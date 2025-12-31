@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/81f3c27f6f7a41ab84cd49b6032a0a40/artifacts
+end_time: 1767192383821
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 81f3c27f6f7a41ab84cd49b6032a0a40
+run_name: exultant-dove-508
+run_uuid: 81f3c27f6f7a41ab84cd49b6032a0a40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767192379025
+status: 3
+tags: []
+user_id: VARUN

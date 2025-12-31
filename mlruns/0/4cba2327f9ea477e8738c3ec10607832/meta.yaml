@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/VARUN/mlflow/mlruns/0/4cba2327f9ea477e8738c3ec10607832/artifacts
+end_time: 1767189303945
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4cba2327f9ea477e8738c3ec10607832
+run_name: bald-wren-127
+run_uuid: 4cba2327f9ea477e8738c3ec10607832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767189303752
+status: 3
+tags: []
+user_id: VARUN
